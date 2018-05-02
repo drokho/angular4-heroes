@@ -1,0 +1,62 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 0;
+    background-color: #333;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1em 8em;
+    background-color: #fff;
+}
+
+.header,
+.footer {
+    min-height: 50px;
+    background-color: #333;
+}
+
+
+input {
+    height: 2em;
+    font-size: 1em;
+    padding-left: .4em;
+    border: none;
+    background-color: #ddd;
+}
+button {
+    margin-top: 20px;
+    font-family: Arial;
+    background-color: #607D8B;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer; cursor: hand;
+}
+button:hover {
+    background-color: #cfd8dc;
+    color: #607D8B;
+}
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
